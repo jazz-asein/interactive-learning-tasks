@@ -1,4 +1,4 @@
-resource "aws_security_group" "sec_group" {
+resource "aws_security_group" "external_by_terraform" {
   name        = "sec_group"
 
   ingress {
